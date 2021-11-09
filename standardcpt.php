@@ -1,3 +1,4 @@
+<?php
 function standard_post_type_for_Resources() {
     $supports = array(
         'title',
