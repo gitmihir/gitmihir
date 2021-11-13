@@ -12,3 +12,20 @@ if (isset($_GET['writeyourreviewid'])) {
 $yourAddress = "Example Address or you can fetch address from backend options";
 ?>
 <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?q=<?php echo $yourAddress; ?>&output=embed"></iframe>
+
+<!--In Less, we can also write it this way -->
+<style>
+.about_the_business {
+    #review{
+        display: none;
+    }
+    .comment-list{
+        float: left;
+        width: 100%;
+    }
+    .comments-area{
+        float: left;
+        width: 100%;
+    }
+}
+</style>
