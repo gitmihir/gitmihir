@@ -47,4 +47,3 @@ function tpp_wp_paypal_get_subscribe_button() {
 }
 
 add_shortcode('tpp_paypal_shortcode', 'tpp_wp_paypal_get_subscribe_button');
-
