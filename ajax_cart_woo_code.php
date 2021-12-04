@@ -19,9 +19,10 @@ if (isset($_POST['newcarttotal'])) {
 ?>
 <!-- Put this code in script file -->
 <script>
+  /* You can set interval time -> 3000 */
    window.setInterval(function () {
         autoloadajax();
-    }, 50000);
+    }, 3000);
     function autoloadajax() {
         var newcarttotal = "0";
         $.ajax({
