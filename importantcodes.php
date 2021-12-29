@@ -41,4 +41,141 @@ $yourAddress = "Example Address or you can fetch address from backend options";
         width: 100%;
     }
 }
+    /* WordPress Comment CSS */
+    /* Extra */
+
+.comment-content{
+    width: 70%;
+    float: right;
+    padding: 20px;
+}
+.comments-area{
+    width: 100%;
+    float: left;
+}
+.fn{
+    width: 100%;
+    float: left;
+}
+.edit-link{
+    width: 100%;
+    float: left;
+}
+.comment-body{
+    display: flex;
+    border: 1px solid #f2f2f2;
+    float: left;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box !important;
+}
+.comments-area .comments-title{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*Comment Output*/
+
+.comment-list .reply {
+    background: #FDFDFE;
+    border-top: 1px solid #f2f2f2;
+    text-align: right;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    display: none;
+}
+.comment-list .reply a {}
+
+.comment-list .alt {}
+.comment-list .odd {}
+.comment-list .even {}
+.comment-list .thread-alt {}
+.comment-list .thread-odd {}
+.comment-list .thread-even {}
+.comment-list li ul.children .alt {}
+.comment-list li ul.children .odd {}
+.comment-list li ul.children .even {}
+
+.comment-list .vcard {}
+.comment-list .vcard cite.fn {}
+.comment-list .vcard span.says {
+    width: 100%;
+    float: left;
+    font-size: 11px;
+    font-weight: 500;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.comment-list .vcard img.photo {
+    border-radius: 50%;
+}
+.comment-list .vcard img.avatar {
+    border-radius: 50%;
+}
+.comment-list .vcard cite.fn a.url {}
+
+.comment-list .comment-meta {
+    background: #f7fbff;
+    border-right: 1px solid #f2f2f2;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+} 
+.comment-list .comment-meta a {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.comment-list .commentmetadata {}
+.comment-list .commentmetadata a {}
+
+.comment-list .parent {}
+.comment-list .comment {}
+.comment-list .children {}
+.comment-list .pingback {}
+.comment-list .bypostauthor {}
+.comment-list .comment-author {
+    padding: 10px;
+}
+.comment-list .comment-author-admin {}
+
+.comment-list {
+    width: 100%;
+    float: left;
+}
+.comment-list li {
+    width: 100%;
+    padding: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+.comment-list li p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 10px;
+}
+.comment-list li ul {}
+.comment-list li ul.children li {}
+.comment-list li ul.children li.alt {}
+.comment-list li ul.children li.byuser {}
+.comment-list li ul.children li.comment {}
+.comment-list li ul.children li.depth {}
+.comment-list li ul.children li.bypostauthor {}
+.comment-list li ul.children li.comment-author-admin {}
+
+#cancel-comment-reply {}
+#cancel-comment-reply a {}
+
+
 </style>
